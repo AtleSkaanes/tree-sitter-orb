@@ -1,0 +1,3 @@
+create cantrip hello(x: Foo) -> Foo {}
+
+create spell world() {}
