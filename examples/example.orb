@@ -1,0 +1,22 @@
+summon std::Something;
+
+create cantrip Hello(x: rune) -> sigil {
+    create foo = 15;
+    create bar = 0xF;
+    create baz = 0b1111;
+    create b: sigil = false;
+    create c = 'a';
+    create z = "asd";
+}
+
+create spell World() {}
+
+// Cool comment
+create artifact Foo {
+    val: r32,
+    name: chant
+}
+
+enchant Foo {
+    create spell Bar(self, bit: u8) {}
+}

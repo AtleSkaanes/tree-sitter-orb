@@ -1,15 +1,15 @@
-package tree_sitter_your_language_name_test
+package tree_sitter_orb_test
 
 import (
 	"testing"
 
 	tree_sitter "github.com/tree-sitter/go-tree-sitter"
-	tree_sitter_your_language_name "github.com/tree-sitter/tree-sitter-YOUR_LANGUAGE_NAME/bindings/go"
+	tree_sitter_orb "github.com/tree-sitter/tree-sitter-orb/bindings/go"
 )
 
 func TestCanLoadGrammar(t *testing.T) {
-	language := tree_sitter.NewLanguage(tree_sitter_your_language_name.Language())
+	language := tree_sitter.NewLanguage(tree_sitter_orb.Language())
 	if language == nil {
-		t.Errorf("Error loading YourLanguageName grammar")
+		t.Errorf("Error loading Orb grammar")
 	}
 }

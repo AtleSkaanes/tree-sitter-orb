@@ -1,4 +1,4 @@
-module github.com/tree-sitter/tree-sitter-your_language_name
+module github.com/tree-sitter/tree-sitter-orb
 
 go 1.23
 
